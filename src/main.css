@@ -6,3 +6,48 @@
 }
 
 
+body {
+  background-color: rgb(42, 85, 114);
+  color: rgb(255, 255, 255);
+} 
+  
+header {
+  padding: 2rem;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+ol, li {
+  list-style: none;
+  line-height: 1.5;
+}
+
+.users-container {
+  display: flex;
+  margin: 0 auto;
+  width: 70%;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.users-item {
+  flex-basis: 19%;
+  padding: 1.5rem 0rem;
+  text-align: center;
+  background-color: rgb(123, 207, 228);
+  color: black;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.users-item:hover {
+  background-color: rgb(232, 198, 252);
+}
+
+.posts-container {
+  margin: 2rem auto 0 auto;
+  width: 60%;
+}
